@@ -1,59 +1,17 @@
-# StudentsApp
+### Initial ‘Home’ Page
+<img width="940" height="497" alt="image" src="https://github.com/user-attachments/assets/b1aef5b2-d0aa-4998-abfd-c4c9a54d5d05" />
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.3.4.
+### Initial ‘Add Student’ Page 
+<img width="940" height="500" alt="image" src="https://github.com/user-attachments/assets/7f92da9c-7d0b-4284-9124-3fae27d7c78e" />
 
-## Development server
+### ‘Add Student’ page with *ngIf fields enabled 
+<img width="940" height="498" alt="image" src="https://github.com/user-attachments/assets/6ee49f9e-2bad-43b5-801e-02fb4ad85ab4" />
 
-To start a local development server, run:
+### ‘Add students’ page with Hobby unchecked and Class 9 selected 
+<img width="940" height="500" alt="image" src="https://github.com/user-attachments/assets/8be797ac-ce63-44b1-93ad-0f1318c33f1d" />
 
-```bash
-ng serve
-```
+### ‘Add Student’ page (without hobby and favourite subject) and class 7 selected
+<img width="940" height="496" alt="image" src="https://github.com/user-attachments/assets/af9b8bb1-aeeb-4e8e-bea6-72f2e3e14741" />
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
-
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+### Updated ‘Home’ page 
+<img width="940" height="471" alt="image" src="https://github.com/user-attachments/assets/fb58ca55-cda3-4160-837f-21ea2834e611" />
