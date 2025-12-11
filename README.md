@@ -1,5 +1,5 @@
 ### Initial ‘Home’ Page
-<img width="940" height="497" alt="image" src="https://github.com/user-attachments/assets/b1aef5b2-d0aa-4998-abfd-c4c9a54d5d05" />
+<img width="1919" height="1021" alt="image" src="https://github.com/user-attachments/assets/425cfc16-c60c-4e0b-acba-c31812938a1e" />
 
 ### Initial ‘Add Student’ Page 
 <img width="940" height="500" alt="image" src="https://github.com/user-attachments/assets/7f92da9c-7d0b-4284-9124-3fae27d7c78e" />
