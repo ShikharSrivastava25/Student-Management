@@ -1,0 +1,85 @@
+.form-container {
+  padding: 20px;
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: rgb(44, 62, 80);
+  border-bottom: 2px solid rgb(52, 152, 219);
+  padding-bottom: 10px;
+  font-weight: 500;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #34495e;
+  font-size: 0.95;
+}
+
+input, select {
+  padding: 10px 12px;
+  border: 1px solid rgb(220, 220, 220);
+  border-radius: 6px;
+  font-size: 1;
+  transition: border-color 0.2s, box-shadow 0.2s;
+  background-color: rgb(252, 252, 252);
+}
+
+.gender {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  margin-bottom: 20px;
+}
+
+.gender label {
+  font-weight: 600;
+  color: rgb(52, 73, 94);
+  font-size: 0.95em;
+}
+
+button {
+  margin-top: 10px;
+  padding: 12px 25px;
+  border: none;
+  background: rgb(52, 152, 219);
+  color: white;
+  font-size: 1em;
+  font-weight: 600;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background: rgb(32, 79, 163);
+}
+
+button:disabled {
+  background: rgb(153, 153, 153);
+  cursor: not-allowed;
+}
+
+.error {
+  color: rgb(231, 76, 60);
+  font-size: 0.8;
+  margin-top: 5px;
+  font-style: italic;
+}
+
+.info {
+  font-size: 0.85em;
+  margin-top: 8px;
+  padding: 8px;
+  border-left: 4px solid rgb(241, 196, 15);
+  background-color: rgb(254, 247, 224);
+  color: rgb(184, 143, 13);
+  border-radius: 0 4px 4px 0;
+}

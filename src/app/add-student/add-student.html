@@ -1,0 +1,79 @@
+<div class="form-container">
+  <h2>Add Student</h2>
+
+  <form [formGroup]="studentForm" (ngSubmit)="onSubmit()">
+
+    <div class="form-group">
+      <label>Name</label>
+      <input type="text" formControlName="name">
+      <small class="error" *ngIf="name?.touched && name?.invalid">
+        Name is required and must be atleast 5 characters
+      </small>
+    </div>
+
+    <div class="form-group">
+      <label>Class</label>
+      <select formControlName="class">
+        <option value="">Select Class</option>
+        <option value="6">Class 6</option>
+        <option value="7">Class 7</option>
+        <option value="8">Class 8</option>
+        <option value="9">Class 9</option>
+      </select>
+
+      <p class="info" *ngIf="selectedClass === '6'">
+        Welcome to middle school!
+      </p>
+
+      <p class="info" *ngIf="selectedClass === '9'">
+        You will appear in board exams soon. All the Best !!
+      </p>
+
+      <p class="info" *ngIf="selectedClass && selectedClass !== '6' && selectedClass !== '9'">
+        Education and hobby go hand in hand!
+      </p>
+    </div>
+
+    <div class="gender">
+      <label>Gender</label>
+
+      <label>
+        <input type="radio" value="Male" formControlName="gender">
+        Male
+      </label>
+
+      <label>
+        <input type="radio" value="Female" formControlName="gender">
+        Female
+      </label>
+    </div>
+
+    <div class="form-group">
+      <label>
+        <input type="checkbox" formControlName="hasHobby">
+        I have a hobby
+      </label>
+    </div>
+
+    <div class="form-group" *ngIf="hasHobby">
+      <label>Hobby</label>
+      <input type="text" formControlName="hobby">
+    </div>
+
+    <div class="form-group">
+      <label>Favourite Subject</label>
+      <select formControlName="favouriteSubject">
+        <option value="">Select Subject</option>
+        <option value="Geography">Geography</option>
+        <option value="Computer Science">Computer Science</option>
+        <option value="Physical Education">Physical Education</option>
+        <option value="Economics">Economics</option>
+        <option value="Accounts">Accounts</option>
+      </select>
+    </div>
+
+    <button type="submit" [disabled]="studentForm.invalid">
+      Save Student
+    </button>
+  </form>
+</div>

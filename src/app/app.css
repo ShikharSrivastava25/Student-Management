@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.sidebar {
+  width: 220px;
+  background: rgb(44, 62, 80);
+  color: white;
+  margin-right: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar h3 {
+  padding: 0 20px 20px 20px;
+  font-size: 1.2;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  margin-bottom: 20px;
+}
+
+.sidebar a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  margin-bottom: 8px;
+  border-radius: 4px;
+  transition: 0.2s;
+}
+
+.sidebar a:hover {
+  background: rgb(68, 68, 68);
+}
+
+.sidebar a.active {
+  background: rgb(52, 152, 219);
+  color: white;
+  font-weight: bold;
+}
+
+.main-content {
+  flex: 1;
+  background: rgb(244, 244, 244);
+  overflow-y: auto;
+}
