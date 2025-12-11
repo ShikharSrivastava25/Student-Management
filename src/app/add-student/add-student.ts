@@ -1,6 +1,6 @@
 import { Component, inject } from '@angular/core';
 import { FormBuilder, ReactiveFormsModule, Validators } from '@angular/forms';
-import { StudentService } from '../student-service';
+import { StudentService } from '../Service/student-service';
 import { Router } from '@angular/router';
 import { CommonModule } from '@angular/common';
 
