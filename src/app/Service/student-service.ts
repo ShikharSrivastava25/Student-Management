@@ -11,7 +11,7 @@ export class StudentService {
       class: '9',
       gender: 'Male',
       hobby: 'Reading',
-      favouriteSubject: 'History'
+      favouriteSubject: 'Geography'
     },
     {
       name: 'Antariksh Pandey',
