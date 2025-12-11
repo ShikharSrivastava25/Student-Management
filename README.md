@@ -11,7 +11,7 @@
 <img width="1919" height="1019" alt="image" src="https://github.com/user-attachments/assets/02643899-ee91-40de-a933-b88a4ffc7b16" />
 
 ### ‘Add Student’ page (without hobby and favourite subject) and class 7 selected
-<img width="1919" height="959" alt="image" src="https://github.com/user-attachments/assets/71117199-4f2c-4dc0-af96-34bae851cea3" />
+<img width="1918" height="1018" alt="image" src="https://github.com/user-attachments/assets/0994eae7-297f-442f-884a-b309d3d468e1" />
 
 ### Updated ‘Home’ page 
 <img width="1919" height="1019" alt="image" src="https://github.com/user-attachments/assets/105d085d-e99e-451b-afa5-6777f951f9b5" />
